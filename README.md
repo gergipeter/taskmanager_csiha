@@ -8,6 +8,9 @@
 
 ## With Docker
 ```bash
+    git clone https://github.com/gergipeter/taskmanager_csiha.git
+    cd taskmanager_csiha
+
     cp .env.example .env
     composer install
     
@@ -19,8 +22,8 @@
 ```
 ## Without Docker
 ```bash
-    git clone https://github.com/gergipeter/zengo_test_gergipeter.git
-    cd zengo_test_gergipeter
+    git clone https://github.com/gergipeter/taskmanager_csiha.git
+    cd taskmanager_csiha
     composer install
     cp .env.example .env
     php artisan key:generate
