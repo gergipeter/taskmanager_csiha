@@ -50,7 +50,6 @@ export default {
     });
 
     const showEditModal = (item) => {
-      console.log('hahao');
       item.showEditModal = true;
     };
         
