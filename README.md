@@ -45,9 +45,17 @@
 Technologies used in the project:
 
 > **PHP** 8.3.1
+> 
 > **MySQL** 8.0.35
+> 
+> **TypeScript** 5.3.3
+> 
 > **NodeJs** 20.1.0
+> 
 > **Laravel** 10.40.0
+> 
 > **Vue** 3.4.7
+> 
 > **Vite** 5.0.2
+> 
 > **SQLite** for tests
