@@ -18,6 +18,7 @@
     ./vendor/bin/sail npm i -D
     ./vendor/bin/sail artisan key:generate
     ./vendor/bin/sail artisan migrate:fresh --seed
+    ./vendor/bin/sail artisan test
     ./vendor/bin/sail npm run dev
 ```
 ## Without Docker
