@@ -37,7 +37,7 @@ export default defineComponent ({
 
     const cancelEdit = () => {
       isDialogVisible.value = false;
-      this.$emit('update:showEditModal', false);
+     // this.$emit('update:showEditModal', false);
     };
 
     const getValidationErrors = (field) => {
