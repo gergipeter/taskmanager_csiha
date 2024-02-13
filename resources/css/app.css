@@ -1,0 +1,134 @@
+/* Variables */
+:root {
+  --primary-color: #1dd185;
+}
+
+/* Table Header Styles */
+.v-data-table-header__content {
+  font-weight: 800;
+}
+
+/* Table Header Text Styles */
+th {
+  color: white !important;
+}
+
+/* Table Header Overflow Styles */
+.v-data-table thead tr th {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Table Header Background Styles */
+thead {
+  background: #212121;
+  color: #fff;
+}
+
+/* Custom Background Styles */
+.custom-bg {
+  height: 30px !important;
+  display: table-row;
+  font-weight: 600;
+  transition: background-color 0.1s ease, color 0.1s ease;
+}
+
+/* Selected Background Styles */
+.selected-bg {
+  background: #1dd18530;
+}
+
+/* Completed Row Styles */
+.completed-row {
+  text-decoration: line-through;
+  color: grey;
+}
+
+/* Custom Background Hover Styles */
+.custom-bg:hover {
+  color: #000;
+  background: var(--primary-color) !important;
+}
+
+/* Footer Text Styles */
+#footer-text {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+}
+
+/* Sum Style */
+.sum-style {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+/* Fixed Width Datatable Styles */
+.fixed-width-datatable {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 1800px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Table Wrapper Styles */
+.v-table__wrapper {
+  border-radius: 5px !important;
+}
+
+/* Checkbox Styles */
+.checkbox-style {
+  vertical-align: middle;
+}
+
+/* Toolbar Title Styles */
+.toolbar-title {
+  text-align: center;
+}
+
+/* Footer Styles */
+footer {
+  line-height: 30px;
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Card Title Styles */
+.v-card-title {
+  border-bottom: 1px solid var(--primary-color);
+  border-radius: 5px;
+  background: var(--primary-color);
+}
+
+/* Confirmation Dialog Button Styles */
+.confirmation-dialog-buttons {
+  margin-top: 10px;
+  border: 2px solid !important;
+  text-align: center;
+}
+
+/* Button Styles */
+.v-btn,
+.v-toolbar-title,
+.v-row-custom-actions {
+  font-weight: bold !important;
+}
+
+/* Description Tooltip Styles */
+.description-tooltip {
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+/* Description Tooltip Hover Styles */
+.description-tooltip:hover {
+  overflow: visible;
+  white-space: normal;
+  z-index: 9999;
+  position: relative;
+}
