@@ -25,8 +25,10 @@
 ```bash
     git clone https://github.com/gergipeter/taskmanager_csiha.git
     cd taskmanager_csiha
-    composer install
+
     cp .env.example .env
+    composer install
+       
     php artisan key:generate
     php artisan migrate
     php artisan test
@@ -48,3 +50,4 @@ Technologies used in the project:
 > **Laravel** 10.40.0
 > **Vue** 3.4.7
 > **Vite** 5.0.2
+> **SQLite** for tests
